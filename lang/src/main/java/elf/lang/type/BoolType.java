@@ -1,7 +1,7 @@
 package elf.lang.type;
 
-public final class BoolType extends Type {
-
+public final class BoolType extends AbstractType {
+    public static final String NAME = "bool";
     public static final BoolType INSTANCE = new BoolType();
 
     private BoolType() {
@@ -9,6 +9,6 @@ public final class BoolType extends Type {
 
     @Override
     public String name() {
-        return "bool";
+        return NAME;
     }
 }

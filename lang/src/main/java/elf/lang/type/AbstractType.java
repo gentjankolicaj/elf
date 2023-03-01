@@ -1,6 +1,6 @@
 package elf.lang.type;
 
-public abstract class Type {
+public abstract class AbstractType {
 
     public abstract String name();
 

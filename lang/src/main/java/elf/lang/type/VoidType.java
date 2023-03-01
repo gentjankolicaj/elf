@@ -1,7 +1,7 @@
 package elf.lang.type;
 
-public final class VoidType extends Type {
-
+public final class VoidType extends AbstractType {
+    public static final String NAME = "void";
     public static final VoidType INSTANCE = new VoidType();
 
     private VoidType() {
@@ -9,6 +9,6 @@ public final class VoidType extends Type {
 
     @Override
     public String name() {
-        return "void";
+        return NAME;
     }
 }
