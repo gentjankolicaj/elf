@@ -1,0 +1,17 @@
+
+
+func test() (bool,int8,float32){
+  return true,8,3.14;
+}
+
+func main(string[] args) {
+   a,b,c=test();
+   e,_,_=test();
+
+   a=a();
+
+  person p=new Person();
+  p.a=func(){
+  }
+
+}
